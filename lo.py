@@ -3,7 +3,7 @@ import urllib.parse
 import requests
 import json
 import subprocess
-from pyrogram.types.messages_and_media import message
+from pyroblack.types.messages_and_media import message
 import helper
 import subprocess
 import datetime
@@ -17,19 +17,19 @@ import tgcrypto
 import aiofiles
 import concurrent.futures
 import subprocess
-from pyrogram.types import Message
-from pyrogram import Client, filters
+from pyroblack.types import Message
+from pyroblack import Client, filters
 from pyromod import listen
-from pyrogram.types import Message
+from pyroblack.types import Message
 import tgcrypto
 import asyncio 
-import pyrogram
-from pyrogram import Client, filters, idle
-from pyrogram.types.messages_and_media import message
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from pyrogram.errors import FloodWait
+import pyroblack
+from pyroblack import Client, filters, idle
+from pyroblack.types.messages_and_media import message
+from pyroblack.types import InlineKeyboardButton, InlineKeyboardMarkup
+from pyroblack.errors import FloodWait
 import time
-from pyrogram.types import User, Message
+from pyroblack.types import User, Message
 from p_bar import progress_bar
 import subprocess
 from subprocess import getstatusoutput
@@ -37,7 +37,7 @@ import logging
 import os
 import sys
 import re
-from pyrogram import Client as bot
+from pyroblack import Client as bot
 import cloudscraper
 from logging.handlers import RotatingFileHandler
 LOGGER = logging.getLogger(__name__)
@@ -70,9 +70,9 @@ def pull_run(work, cmds):
 	        print(result) 
 bot = Client(
   "CW",
-  bot_token= "6917084113:AAFOK37UIoEQLtY2HYu5UeF77cIF4BfGnwk",
-  api_id= 27097807 ,
-  api_hash= "9fd790a9cb1f639c921d941621d2959d" 
+  bot_token= "6628610020:AAGvOUZSMROgMJubPJk5qFQc2lTgg330xhY",
+  api_id= 22278147 ,
+  api_hash= "379775c2b8cda0ccf30784963f300111" 
 )
 
 @bot.on_message(filters.command(["down"]) & ~filters.edited)
