@@ -25,7 +25,7 @@ import time
 import math
 import os
 from Easy_F import hrb,hrt
-from pyrogram.errors import FloodWait
+from pyroblack.errors import FloodWait
 
 class Timer:
     def __init__(self, time_between=5):
