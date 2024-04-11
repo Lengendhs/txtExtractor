@@ -33,8 +33,8 @@ import tgcrypto
 import aiofiles
 import concurrent.futures
 import subprocess
-from pyrogram.types import Message
-from pyrogram import Client, filters
+from pyroblack.types import Message
+from pyroblack import Client, filters
 
 def duration(filename):
     result = subprocess.run(["ffprobe", "-v", "error", "-show_entries",
